@@ -36,6 +36,10 @@ nav a:hover {
 section {
   padding: 40px;
 }
+#dima{
+  display: flex;
+  text-align: center;
+}
 
 section h2 {
   color: #fe001a;
@@ -60,6 +64,40 @@ section p {
 .image-container img {
   max-width: 100%;
   height: auto;
+}
+.building-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.building {
+  width: 45%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.city-overview {
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.city-overview img {
+  flex: 2;
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.city-overview .description {
+  flex: 3;
 }
 
 .chart-container {
