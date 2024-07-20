@@ -10,9 +10,9 @@ body {
 }
 /* Header Styles */
 header {
-  background-color: #fe001a;
+  background-color:#fff;
   display: flex;
-  color: #fff;
+  color:black;
   padding: 0% ;
   align-items: center;
   justify-content: center;
